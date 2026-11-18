@@ -1,0 +1,10 @@
+A. En testing color Azul.
+B. En desarrollo tiene color Amarillo.
+C. En main tiene color skyblue.
+D. Quedo el favicon de Beta.
+
+E. Si, Beta tuvo problemas al hacer el push.
+F. El problema que surgió fue que había un push y nadie había hecho pull, hay que hacer un pull antes de volver a hacer un push sino se superponen las modificaciones.
+G. Se hace el git pull, se elige que cambios van a quedar, porque aparecen los cambios del head y del nuevo, decidimos integrar ambos cambios pero reordenando el Código para que no se superponga y se guarda para después hacer el push.
+H. El git push -f elimina los cambios del primer push para poder realizar el push actual y no te avisa que se elimino ese trabajo, estarias borrando el trabajo de tu compañero y lo que estaba en la rama.
+I. Para que el archivo index integre todos los cambios, el segundo push que se vaya a realizar debe hacer un git pull, borrar las flechas <> y el divisor del head con el actual =, para integrar ambas modificaciones y guardar el archivo, hacer el push y luego antes de hacer el tercer push se repite el mismo procedimiento.
